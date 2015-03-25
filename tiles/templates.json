@@ -1,0 +1,11 @@
+{
+    "default": {
+        "name": "defaultTemplate",
+        "displayName": "IB Tech Deal Room ",
+        "description": "Customized DealRoom for Vibe",
+        "tiles": [
+            "opportunity_detail",
+            "opportunity_activity"
+        ]
+    }
+}

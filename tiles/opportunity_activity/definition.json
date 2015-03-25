@@ -1,0 +1,11 @@
+{
+    "displayName" : "Chatter Stream",
+    "name" : "opportunity_activity",
+    "description" : "Opportunity activity.",
+    "config" : "/example-salesforce/configure",
+    "style" : "ACTIVITY",
+    "icons" : {
+        "16": "{{{host}}}/images/salesforce.png",
+        "48": "{{{host}}}/images/salesforce.png"
+         }
+}

@@ -1,0 +1,12 @@
+{
+    "clientUrl": "http://ec2-54-174-204-81.compute-1.amazonaws.com", "port": "80",
+    "development": true,
+"ignoreExtensionRegistrationSource" : true,
+    "oauth2-sfdc": {
+        "originServerAuthorizationUrl": "https://login.salesforce.com/services/oauth2/authorize",
+        "originServerTokenRequestUrl": "https://login.salesforce.com/services/oauth2/token",
+        "oauth2ConsumerKey": "3MVG9fMtCkV6eLhfTVrJG6td_0c7IbHWJ35MZq1LJY30SRaj7ucAcT19BWmKze8Vb_7QwCo2mYDz3GaAmwHL7",
+        "oauth2ConsumerSecret": "3538549295645087042"
+      },
+"logLevel": "DEBUG"
+}

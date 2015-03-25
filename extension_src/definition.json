@@ -1,0 +1,83 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "tiles": [
+        {
+            "sampleData": {
+                "title": "Opportunity",
+                "contents": [
+                    {
+                        "text": "Stage Name:",
+                        "icon": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
+                        "linkDescription": "Stage Name"
+                    },
+                    {
+                        "text": "Type:",
+                        "icon": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
+                        "linkDescription": "Type"
+                    },
+                    {
+                        "text": "Probability: 80%",
+                        "icon": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
+                        "linkDescription": "Close Date"
+                    },
+                    {
+                        "text": "Amount: ",
+                        "icon": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
+                        "linkDescription": "Amount"
+                    },
+                    {
+                        "text": "Expected Revenue: ",
+                        "icon": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
+                        "linkDescription": "Expected Revenue"
+                    },
+                    {
+                        "text": "Close Date: ",
+                        "icon": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
+                        "linkDescription": "Close Date"
+                    }
+                ],
+                "config": {
+                    "listStyle": "contentList"
+                }
+            },
+            "displayName": "Detail for an SFDC Opportunity",
+            "name": "opportunity_detail",
+            "description": "Opportunity Detail",
+            "config": "http://ec2-54-174-204-81.compute-1.amazonaws.com/example-salesforce/configure",
+            "style": "LIST",
+            "icons": {
+                "16": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
+                "48": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png"
+            },
+            "unregister": "http://ec2-54-174-204-81.compute-1.amazonaws.com/unregister",
+            "register": "http://ec2-54-174-204-81.compute-1.amazonaws.com/registration"
+        },
+        {
+            "displayName": "Chatter Stream",
+            "name": "opportunity_activity",
+            "description": "Opportunity activity.",
+            "config": "http://ec2-54-174-204-81.compute-1.amazonaws.com/example-salesforce/configure",
+            "style": "ACTIVITY",
+            "icons": {
+                "16": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
+                "48": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png"
+            },
+            "unregister": "http://ec2-54-174-204-81.compute-1.amazonaws.com/unregister",
+            "register": "http://ec2-54-174-204-81.compute-1.amazonaws.com/registration"
+        }
+    ],
+    "templates": [
+        {
+            "name": "defaultTemplate",
+            "displayName": "IB Tech Deal Room ",
+            "description": "Customized DealRoom for Vibe",
+            "tiles": [
+                "opportunity_detail",
+                "opportunity_activity"
+            ]
+        }
+    ],
+    "jabCartridges": []
+}

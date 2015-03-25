@@ -1,0 +1,53 @@
+{
+  "059ff079-5937-438f-918f-c39e78275505": {
+    "url": "https://ibtechnology-green.jiveon.com/api/jivelinks/v1/tiles/1102/data",
+    "config": {
+      "parent": "https://ibtechnology-green.jiveon.com/api/core/v3/places/1023",
+      "opportunityID": "006j000000AaU1gAAF",
+      "isSFDC": true,
+      "ticketID": "BF8221D2AFF4526898370E9FD0B2BC31F304DE78"
+    },
+    "name": "opportunity_detail",
+    "accessToken": "88911954w4bfdbudhykwmyzpli273by8idbky0uc.t",
+    "expiresIn": "172799",
+    "refreshToken": "ems328tlsd4y7zz5pyirdbvuwlcke9a8639xbnyv.r",
+    "scope": "uri:/api/jivelinks/v1/tiles/1102",
+    "guid": "a98a7414-9005-4d90-8978-d7ed6c4d9061_1102",
+    "jiveCommunity": "ibtechnology-green.jiveon.com",
+    "id": "059ff079-5937-438f-918f-c39e78275505"
+  },
+  "2e8767ff-4fce-4405-8b66-7a8a07bdcb6d": {
+    "url": "https://ibtechnology-green.jiveon.com/api/jivelinks/v1/tiles/1110/data",
+    "config": {
+      "parent": "https://ibtechnology-green.jiveon.com/api/core/v3/places/1037",
+      "opportunityID": "006j000000AaU1qAAF",
+      "isSFDC": true,
+      "ticketID": "BF8221D2AFF4526898370E9FD0B2BC31F304DE78"
+    },
+    "name": "opportunity_detail",
+    "accessToken": "ffq96uwcpgt81g9cj7riim1jt0nnt9h0s42c2z2s.t",
+    "expiresIn": "172799",
+    "refreshToken": "6sxxa015c7iz96by34whekl3nezglev9dvaoc1i9.r",
+    "scope": "uri:/api/jivelinks/v1/tiles/1110",
+    "guid": "a98a7414-9005-4d90-8978-d7ed6c4d9061_1110",
+    "jiveCommunity": "ibtechnology-green.jiveon.com",
+    "id": "2e8767ff-4fce-4405-8b66-7a8a07bdcb6d"
+  },
+  "e4bae1e1-1433-48b0-9b7f-9e2cb0cb969a": {
+    "url": "https://ibtechnology-green.jiveon.com/api/jivelinks/v1/tiles/1126/data",
+    "config": {
+      "parent": "https://ibtechnology-green.jiveon.com/api/core/v3/places/1005",
+      "opportunityID": "006j000000AaU1kAAF",
+      "isSFDC": true,
+      "ticketID": "BF8221D2AFF4526898370E9FD0B2BC31F304DE78"
+    },
+    "name": "opportunity_detail",
+    "accessToken": "bl4oe6mqii31j8elda5a5k8q8c4jxk53v2huti7q.t",
+    "expiresIn": "172799",
+    "refreshToken": "ka025rpw4hceysydmr153ozfycmkr9zhyeczybiz.r",
+    "scope": "uri:/api/jivelinks/v1/tiles/1126",
+    "guid": "a98a7414-9005-4d90-8978-d7ed6c4d9061_1126",
+    "jiveCommunity": "ibtechnology-green.jiveon.com",
+    "id": "e4bae1e1-1433-48b0-9b7f-9e2cb0cb969a"
+  }
+}
