@@ -23,7 +23,7 @@ function doIt( host ) {
         var query = encodeURIComponent("SELECT Id, Name, Description, StageName, Amount FROM Opportunity");
 
         osapi.http.get({
-            'href' : host + '/example-salesforce/salesforce/query?' +
+            'href' : host + '/deal-room/salesforce/query?' +
                 'id=' + ticketID +
                 "&ts=" + new Date().getTime() +
                 "&ticketID=" + ticketID +
@@ -93,7 +93,7 @@ function doIt( host ) {
         oauth2SuccessCallback : oauth2SuccessCallback,
         preOauth2DanceCallback : preOauth2DanceCallback,
         onLoadCallback : onLoadCallback,
-        authorizeUrl : host + '/example-salesforce/oauth/authorizeUrl'
+        authorizeUrl : host + '/deal-room/oauth/authorizeUrl'
     };
 
     $("#btn_done").click( function() {

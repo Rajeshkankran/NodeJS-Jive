@@ -1,8 +1,8 @@
 {
     "default": {
         "name": "defaultTemplate",
-        "displayName": "IB Tech Deal Room ",
-        "description": "Customized DealRoom for Vibe",
+        "displayName": "IB Deal Room",
+        "description": "Deal Room For Salesforce Integration ",
         "tiles": [
             "opportunity_detail",
             "opportunity_activity"

@@ -4,32 +4,32 @@
         "contents": [
             {
                 "text": "Stage Name:",
-                "icon": "{{{host}}}/images/salesforce.png",
+                "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
                 "linkDescription": "Stage Name"
             },
             {
                 "text": "Type:",
-                "icon": "{{{host}}}/images/salesforce.png",
+                "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
                 "linkDescription": "Type"
             },
             {
-                "text": "Probability: 80%",
-                "icon": "{{{host}}}/images/salesforce.png",
+                "text": "Probability:",
+                "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
                 "linkDescription": "Close Date"
             },
             {
                 "text": "Amount: ",
-                "icon": "{{{host}}}/images/salesforce.png",
+                "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
                 "linkDescription": "Amount"
             },
             {
                 "text": "Expected Revenue: ",
-                "icon": "{{{host}}}/images/salesforce.png",
+                "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
                 "linkDescription": "Expected Revenue"
             },
             {
                 "text": "Close Date: ",
-                "icon": "{{{host}}}/images/salesforce.png",
+                "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
                 "linkDescription": "Close Date"
             }
         ],
@@ -37,13 +37,14 @@
             "listStyle": "contentList"
         }
     },
-    "displayName": "Detail for an SFDC Opportunity",
+    "displayName": "Opportunity",
     "name": "opportunity_detail",
     "description": "Opportunity Detail",
-    "config" : "/example-salesforce/configure",
-    "style": "LIST",
-    "icons": {
-        "16": "{{{host}}}/images/salesforce.png",
-        "48": "{{{host}}}/images/salesforce.png"
-    }
+    "icons" : {
+        "16": "{{{host}}}/opportunity_activity/images/salesforce.png",
+        "48": "{{{host}}}/opportunity_activity/images/salesforce.png",
+        "128": "{{{host}}}/opportunity_activity/images/salesforce.png"
+    },
+    "config" : "/deal-room/configure",
+    "style": "LIST"
 }

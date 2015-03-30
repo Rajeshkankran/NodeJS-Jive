@@ -1,15 +1,16 @@
 {
-  "a367ce20-1898-4ba9-92fd-f8a5bd9f8c28": {
-    "displayName": "Chatter Stream",
+  "a1215f47-1d4d-4def-8005-64af735e5352": {
+    "displayName": "Activity",
     "name": "opportunity_activity",
-    "description": "Opportunity activity.",
-    "config": "/example-salesforce/configure",
-    "style": "ACTIVITY",
+    "description": "Opportunity activity",
     "icons": {
-      "16": "{{{host}}}/images/salesforce.png",
-      "48": "{{{host}}}/images/salesforce.png"
+      "16": "{{{host}}}/opportunity_activity/images/salesforce.png",
+      "48": "{{{host}}}/opportunity_activity/images/salesforce.png",
+      "128": "{{{host}}}/opportunity_activity/images/salesforce.png"
     },
-    "id": "a367ce20-1898-4ba9-92fd-f8a5bd9f8c28",
+    "config": "/deal-room/configure",
+    "style": "ACTIVITY",
+    "id": "a1215f47-1d4d-4def-8005-64af735e5352",
     "definitionDirName": "opportunity_activity"
   }
 }

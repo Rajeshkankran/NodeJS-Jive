@@ -1,65 +1,10 @@
 {
-  "eaecb54c-0fb4-4736-8bf5-091f9ab2b091": {
-    "instanceID": "eaecb54c-0fb4-4736-8bf5-091f9ab2b091",
+  "2488280c-5d47-43ec-8895-45f54f3a8848": {
+    "instanceID": "2488280c-5d47-43ec-8895-45f54f3a8848",
     "lastTimePulled": {
-      "activity": 1426485375000,
+      "activity": 1427704845000,
       "comment": 1,
       "jivecomment": 1
     }
-  },
-  "edfeedeb-f0c7-4c93-9088-03f2cc85a281": {
-    "instanceID": "edfeedeb-f0c7-4c93-9088-03f2cc85a281",
-    "lastTimePulled": {
-      "activity": 1426493517000,
-      "comment": 1426596178000,
-      "jivecomment": 1426595720930
-    },
-    "syncs": [
-      "0D7j0000000ZbQNCA0"
-    ]
-  },
-  "63e1db31-01ed-459e-807f-be9a046f14c0": {
-    "instanceID": "63e1db31-01ed-459e-807f-be9a046f14c0",
-    "lastTimePulled": {
-      "activity": 1426493517000,
-      "comment": 1427106101000,
-      "jivecomment": 1426490406236
-    },
-    "syncs": [
-      "0D7j0000000ZY2KCAW"
-    ]
-  },
-  "fcdcdc56-0efc-4fa0-be12-dc1eb15b7b4d": {
-    "instanceID": "fcdcdc56-0efc-4fa0-be12-dc1eb15b7b4d",
-    "lastTimePulled": {
-      "activity": 1427090170000,
-      "comment": 1426596178000,
-      "jivecomment": 1427090209851
-    },
-    "syncs": [
-      "0D7j0000000ZefYCAS"
-    ]
-  },
-  "6e208b24-1bf3-4709-89c8-c669849fbdac": {
-    "instanceID": "6e208b24-1bf3-4709-89c8-c669849fbdac",
-    "lastTimePulled": {
-      "activity": 1426598525000,
-      "comment": 1426597397000,
-      "jivecomment": 1426598597359
-    },
-    "syncs": [
-      "0D7j0000000ZbSTCA0"
-    ]
-  },
-  "b5e9b172-4357-4328-a5c1-561f57e7788a": {
-    "instanceID": "b5e9b172-4357-4328-a5c1-561f57e7788a",
-    "lastTimePulled": {
-      "activity": 1427277721000,
-      "comment": 1427106101000,
-      "jivecomment": 1427277742417
-    },
-    "syncs": [
-      "0D7j0000000ZgTSCA0"
-    ]
   }
 }

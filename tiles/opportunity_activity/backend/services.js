@@ -12,8 +12,8 @@ function processTileInstance(instance) {
     //
     // 2. pull comments from SFDC and push to Jive
         return jive.context.scheduler.schedule('sfdcPullComments', eventContext)
-    }).then(function (data) {
-jive.tiles.pushData(instance, data);
+    }).then(function () {
+
     //
     // 3. pull comments from Jive and push to SFDC
         return jive.context.scheduler.schedule('sfdcPushComments', eventContext)
@@ -35,9 +35,3 @@ exports.task = new jive.tasks.build(
     // interval (optional)
     10000
 );
-exports.eventHandlers = [
-    {
-        'event' : jive.constants.globalEventNames.INSTANCE_UPDATED,
-       'handler' : processTileInstance
-}
-];

@@ -1,13 +1,13 @@
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="http://ec2-54-174-204-81.compute-1.amazonaws.com/stylesheets/style.css">
-    <link rel="stylesheet" type="text/css" href="http://ec2-54-174-204-81.compute-1.amazonaws.com/stylesheets/sfdc.css">
-    <script src="http://ec2-54-174-204-81.compute-1.amazonaws.com/javascripts/jquery-1.8.3.js"></script>
-    <script src="http://ec2-54-174-204-81.compute-1.amazonaws.com/javascripts/oauth2client.js"></script>
-    <script src="http://ec2-54-174-204-81.compute-1.amazonaws.com/tileconfig/javascripts/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{{host}}}/stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="{{{host}}}/stylesheets/sfdc.css">
+    <script src="{{{host}}}/javascripts/jquery-1.8.3.js"></script>
+    <script src="{{{host}}}/javascripts/oauth2client.js"></script>
+    <script src="{{{host}}}/tileconfig/javascripts/main.js"></script>
     <script>
         $(document).ready( function() {
-            doIt( 'http://ec2-54-174-204-81.compute-1.amazonaws.com');
+            doIt( '{{{host}}}');
         });
     </script>
 </head>

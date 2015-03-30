@@ -1,4 +1,4 @@
-var jive = require("jive-sdk");
+jive = require("jive-sdk");
 var url = require('url');
 var util = require('util');
 var sfdc_helpers = require('./sfdc_helpers');
@@ -6,7 +6,7 @@ var q = require('q');
 
 var metadataCollection = "sfdcActivityMetadata";
 var metadataStore = jive.service.persistence();
-
+var addOnHost ="https://ec2-54-186-37-98.us-west-2.compute.amazonaws.com";
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Public
 
@@ -163,32 +163,32 @@ function convertToListTileData(opportunity) {
 
                 {
                     "text": util.format("Stage Name: %s", opportunity['StageName']),
-                    "icon": "https://ec2-54-174-204-81.compute-1.amazonaws.com:8443/images/salesforce.png",
+                    "icon": addOnHost + "/images/salesforce.png",
                     "linkDescription": "Stage Name"
                 },
                 {
                     "text": util.format("Type: %s", opportunity['Type']),
-                    "icon": "https://ec2-54-174-204-81.compute-1.amazonaws.com:8443/images/salesforce.png",
+                    "icon": addOnHost + "/images/salesforce.png",
                     "linkDescription": "Type"
                 },
                 {
                     "text": util.format("Probability: %s", opportunity['Probability']) + "%",
-                    "icon": "https://ec2-54-174-204-81.compute-1.amazonaws.com:8443/images/salesforce.png",
+                    "icon": addOnHost + "/images/salesforce.png",
                     "linkDescription": "Close Date"
                 },
                 {
                     "text": util.format("Amount: $%d", opportunity['Amount']),
-                    "icon": "https://ec2-54-174-204-81.compute-1.amazonaws.com:8443/images/salesforce.png",
+                    "icon": addOnHost + "/images/salesforce.png",
                     "linkDescription": "Amount"
                 },
                 {
                     "text": util.format("Expected Revenue: $%d", opportunity['ExpectedRevenue']),
-                    "icon": "https://ec2-54-174-204-81.compute-1.amazonaws.com:8443/images/salesforce.png",
+                    "icon": addOnHost + "/images/salesforce.png",
                     "linkDescription": "Expected Revenue"
                 },
                 {
                     "text": util.format("Close Date: %s", opportunity['CloseDate']),
-                    "icon": "https://ec2-54-174-204-81.compute-1.amazonaws.com:8443/images/salesforce.png",
+                    "icon": addOnHost + "/images/salesforce.png",
                     "linkDescription": "Close Date"
                 },
                 {
@@ -276,9 +276,9 @@ function getActivityJSON(record) {
             },
             "object": {
                 "type": "website",
-                "url": "http://www.salesforce.com",
-                "image": "https://ec2-54-174-204-81.compute-1.amazonaws.com:8443/images/salesforce.png",
-                "title": oppName,
+                "url": "http://na16.salesforce.com/"+ externalID,
+                "image": addOnHost + "/images/salesforce.png",
+                "title": body,
                 "description": body
             },
             "externalID": externalID

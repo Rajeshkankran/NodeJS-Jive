@@ -1,11 +1,12 @@
 {
-    "displayName" : "Chatter Stream",
+    "displayName" : "Activity",
     "name" : "opportunity_activity",
-    "description" : "Opportunity activity.",
-    "config" : "/example-salesforce/configure",
-    "style" : "ACTIVITY",
+    "description" : "Opportunity activity",
     "icons" : {
-        "16": "{{{host}}}/images/salesforce.png",
-        "48": "{{{host}}}/images/salesforce.png"
-         }
+        "16": "{{{host}}}/opportunity_activity/images/salesforce.png",
+        "48": "{{{host}}}/opportunity_activity/images/salesforce.png",
+        "128": "{{{host}}}/opportunity_activity/images/salesforce.png"
+    },
+    "config" : "/deal-room/configure",
+    "style" : "ACTIVITY"
 }

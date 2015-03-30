@@ -1,10 +1,10 @@
 {
-  "https://ibtechnology-green.jiveon.com": {
-    "jiveUrl": "https://ibtechnology-green.jiveon.com",
+  "https://sandbox.jiveon.com": {
+    "jiveUrl": "https://sandbox.jiveon.com",
     "version": "post-samurai",
-    "tenantId": "a98a7414-9005-4d90-8978-d7ed6c4d9061",
-    "clientId": "npdpbkdaq3bmzp9hivu2tqpmxrakz6kd.i",
-    "clientSecret": "lo9xbm4ainclk1649744lashf7u0m2xd.s",
-    "jiveCommunity": "ibtechnology-green.jiveon.com"
+    "tenantId": "b22e3911-28ef-480c-ae3b-ca791ba86952",
+    "clientId": "c6q4mmiypemkvx6fp3nb3ab5frgtdk4a.i",
+    "clientSecret": "lvuxtwii1f66uebny15k1cgp6faqq4o3.s",
+    "jiveCommunity": "sandbox.jiveon.com"
   }
 }

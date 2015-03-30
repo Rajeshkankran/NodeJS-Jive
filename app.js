@@ -22,21 +22,25 @@
 // Setup express
 
 var express = require('express'),
-    fs = require('fs'),
-    http = require('http'),
     https = require('https'),
+       fs = require('fs'),
+    http = require('http'),
     jive = require('jive-sdk');
 
+
+//SSL certificates options
 var options = {
-key: fs.readFileSync('certs/server.key'),
-cert: fs.readFileSync('certs/server.crt'),
-ca: fs.readFileSync('certs/ca.crt'),
-requestCert: false,
-rejectUnauthorized: false
+	key: fs.readFileSync('certs/server.key'),
+	cert: fs.readFileSync('certs/server.crt'),
+	ca: fs.readFileSync('certs/ca.crt'),
+	requestCert: false,
+	rejectUnauthorized: false
 };
+
+
 var app = express();
-//var app1 = express();
-//////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
 // Setup jive
 
 var failServer = function(reason) {
@@ -45,30 +49,19 @@ var failServer = function(reason) {
 };
 
 var startServer = function () {
-    
+    if ( !jive.service.role || jive.service.role.isHttp() ) {
         var server = http.createServer(app).listen( app.get('port') || 80, app.get('hostname') || undefined, function () {
-        console.log("Express server listening on " + server.address().address +':'+server.address().port);
+            console.log("Express server listening on " + server.address().address +':'+server.address().port);
         });
-    
+    }
 };
 
-var vts = {
-    "clientUrl": "https://ec2-54-174-204-81.compute-1.amazonaws.com", "port": "8443",
-    "development": true,
-"ignoreExtensionRegistrationSource" : true,
-    "oauth2-sfdc": {
-        "originServerAuthorizationUrl": "https://login.salesforce.com/services/oauth2/authorize",
-        "originServerTokenRequestUrl": "https://login.salesforce.com/services/oauth2/token",
-        "oauth2ConsumerKey": "3MVG9fMtCkV6eLhfTVrJG6td_0c7IbHWJ35MZq1LJY30SRaj7ucAcT19BWmKze8Vb_7QwCo2mYDz3GaAmwHL7",
-        "oauth2ConsumerSecret": "3538549295645087042"
-      },
-"logLevel": "DEBUG"
-};
+//HTTPS Server
 
-https.createServer(options,app).listen(8443,app.get('hostname'));
-// console.log("Express server listening on " + ser.address().address +':'+ser.address().port);
+https.createServer(options,app).listen(443,app.get('hostname'));
 
-/////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
 // Setting up your service
 
 //
@@ -79,7 +72,6 @@ https.createServer(options,app).listen(8443,app.get('hostname'));
 // if one is not provided, it assumes that [app root]/jiveclientconfiguration.json file exists.
 jive.service.init(app)
 
-
 // 2. autowire all available definitions in /tiles; see explanation below.
 .then( function() { return jive.service.autowire() } )
 
@@ -88,9 +80,7 @@ jive.service.init(app)
 // fail one
 .then( function() { return jive.service.start() } ).then( startServer, failServer );
 
-//jive.service.init(app,vts)
-
-///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 // Below is an explanation of each step in the above sequence successful.
 
 /*

@@ -2,12 +2,12 @@ var sampleOauth = require('./sampleOauth.js');
 
 exports.authorizeUrl = {
     'verb' : 'get',
-    'path' : '/example-salesforce/oauth/authorizeUrl',
+    'path' : '/deal-room/oauth/authorizeUrl',
     'route': sampleOauth.authorizeUrl.bind(sampleOauth)
 };
 
 exports.oauth2Callback = {
     'verb' : 'get',
-    'path' : '/example-salesforce/oauth/oauth2Callback',
+    'path' : '/deal-room/oauth/oauth2Callback',
     'route': sampleOauth.oauth2Callback.bind(sampleOauth)
 };

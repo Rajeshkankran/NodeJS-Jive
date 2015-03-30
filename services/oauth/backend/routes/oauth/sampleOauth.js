@@ -14,7 +14,7 @@ myOauth.fetchOAuth2Conf = function() {
         oauthConf = JSON.parse( JSON.stringify( oauthConf ) );
     var clientOAuth2CallbackUrl = oauthConf[ 'clientOAuth2CallbackUrl' ];
         oauthConf[ 'clientOAuth2CallbackUrl' ] =
-        clientOAuth2CallbackUrl || jive.service.serviceURL() + '/example-salesforce/oauth/oauth2Callback';
+        clientOAuth2CallbackUrl || jive.service.serviceURL() + '/deal-room/oauth/oauth2Callback';
     return oauthConf;
 };
 

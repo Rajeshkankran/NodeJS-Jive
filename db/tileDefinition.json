@@ -1,36 +1,36 @@
 {
-  "722534bc-2450-421d-bf2a-c2bcde4066c4": {
+  "1a17602c-bf83-4828-ae5e-7e12a8e36a39": {
     "sampleData": {
       "title": "Opportunity",
       "contents": [
         {
           "text": "Stage Name:",
-          "icon": "{{{host}}}/images/salesforce.png",
+          "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
           "linkDescription": "Stage Name"
         },
         {
           "text": "Type:",
-          "icon": "{{{host}}}/images/salesforce.png",
+          "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
           "linkDescription": "Type"
         },
         {
-          "text": "Probability: 80%",
-          "icon": "{{{host}}}/images/salesforce.png",
+          "text": "Probability:",
+          "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
           "linkDescription": "Close Date"
         },
         {
           "text": "Amount: ",
-          "icon": "{{{host}}}/images/salesforce.png",
+          "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
           "linkDescription": "Amount"
         },
         {
           "text": "Expected Revenue: ",
-          "icon": "{{{host}}}/images/salesforce.png",
+          "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
           "linkDescription": "Expected Revenue"
         },
         {
           "text": "Close Date: ",
-          "icon": "{{{host}}}/images/salesforce.png",
+          "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
           "linkDescription": "Close Date"
         }
       ],
@@ -38,16 +38,17 @@
         "listStyle": "contentList"
       }
     },
-    "displayName": "Detail for an SFDC Opportunity",
+    "displayName": "Opportunity",
     "name": "opportunity_detail",
     "description": "Opportunity Detail",
-    "config": "/example-salesforce/configure",
-    "style": "LIST",
     "icons": {
-      "16": "{{{host}}}/images/salesforce.png",
-      "48": "{{{host}}}/images/salesforce.png"
+      "16": "{{{host}}}/opportunity_activity/images/salesforce.png",
+      "48": "{{{host}}}/opportunity_activity/images/salesforce.png",
+      "128": "{{{host}}}/opportunity_activity/images/salesforce.png"
     },
-    "id": "722534bc-2450-421d-bf2a-c2bcde4066c4",
+    "config": "/deal-room/configure",
+    "style": "LIST",
+    "id": "1a17602c-bf83-4828-ae5e-7e12a8e36a39",
     "definitionDirName": "opportunity_detail"
   }
 }
