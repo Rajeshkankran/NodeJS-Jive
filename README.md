@@ -1,7 +1,2 @@
 # kankranrepo
-my repo for jive
-update
-
-
-
-hielll
+This add-on for vibee
