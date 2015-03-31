@@ -1,5 +1,5 @@
 {
-  "a1215f47-1d4d-4def-8005-64af735e5352": {
+  "f6224df0-6564-4ae3-928c-28d2951098b2": {
     "displayName": "Activity",
     "name": "opportunity_activity",
     "description": "Opportunity activity",
@@ -10,7 +10,7 @@
     },
     "config": "/deal-room/configure",
     "style": "ACTIVITY",
-    "id": "a1215f47-1d4d-4def-8005-64af735e5352",
+    "id": "f6224df0-6564-4ae3-928c-28d2951098b2",
     "definitionDirName": "opportunity_activity"
   }
 }

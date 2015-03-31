@@ -9,32 +9,32 @@
                 "contents": [
                     {
                         "text": "Stage Name:",
-                        "icon": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
+                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png",
                         "linkDescription": "Stage Name"
                     },
                     {
                         "text": "Type:",
-                        "icon": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
+                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png",
                         "linkDescription": "Type"
                     },
                     {
-                        "text": "Probability: 80%",
-                        "icon": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
+                        "text": "Probability:",
+                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png",
                         "linkDescription": "Close Date"
                     },
                     {
                         "text": "Amount: ",
-                        "icon": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
+                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png",
                         "linkDescription": "Amount"
                     },
                     {
                         "text": "Expected Revenue: ",
-                        "icon": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
+                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png",
                         "linkDescription": "Expected Revenue"
                     },
                     {
                         "text": "Close Date: ",
-                        "icon": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
+                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png",
                         "linkDescription": "Close Date"
                     }
                 ],
@@ -42,37 +42,39 @@
                     "listStyle": "contentList"
                 }
             },
-            "displayName": "Detail for an SFDC Opportunity",
+            "displayName": "Opportunity",
             "name": "opportunity_detail",
             "description": "Opportunity Detail",
-            "config": "http://ec2-54-174-204-81.compute-1.amazonaws.com/example-salesforce/configure",
-            "style": "LIST",
             "icons": {
-                "16": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
-                "48": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png"
+                "16": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/salesforce.png",
+                "48": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/salesforce.png",
+                "128": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/salesforce.png"
             },
-            "unregister": "http://ec2-54-174-204-81.compute-1.amazonaws.com/unregister",
-            "register": "http://ec2-54-174-204-81.compute-1.amazonaws.com/registration"
+            "config": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/deal-room/configure",
+            "style": "LIST",
+            "unregister": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/unregister",
+            "register": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/registration"
         },
         {
-            "displayName": "Chatter Stream",
+            "displayName": "Activity",
             "name": "opportunity_activity",
-            "description": "Opportunity activity.",
-            "config": "http://ec2-54-174-204-81.compute-1.amazonaws.com/example-salesforce/configure",
-            "style": "ACTIVITY",
+            "description": "Opportunity activity",
             "icons": {
-                "16": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png",
-                "48": "http://ec2-54-174-204-81.compute-1.amazonaws.com/images/salesforce.png"
+                "16": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/salesforce.png",
+                "48": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/salesforce.png",
+                "128": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/salesforce.png"
             },
-            "unregister": "http://ec2-54-174-204-81.compute-1.amazonaws.com/unregister",
-            "register": "http://ec2-54-174-204-81.compute-1.amazonaws.com/registration"
+            "config": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/deal-room/configure",
+            "style": "ACTIVITY",
+            "unregister": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/unregister",
+            "register": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/registration"
         }
     ],
     "templates": [
         {
             "name": "defaultTemplate",
-            "displayName": "IB Tech Deal Room ",
-            "description": "Customized DealRoom for Vibe",
+            "displayName": "IB Deal Room",
+            "description": "Deal Room For Salesforce Integration ",
             "tiles": [
                 "opportunity_detail",
                 "opportunity_activity"

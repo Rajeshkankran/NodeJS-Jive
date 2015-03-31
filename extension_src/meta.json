@@ -1,6 +1,6 @@
 {
     "package_version": "1.0",
-    "id": "b0d01b5e-dcd1-4dca-a8e4-bbf9180f3c8c",
+    "id": "ffd3e8d8-05e9-467a-8a06-20302a5b68f2",
     "type": "client-app",
     "name": "Add-on containing tiles(s)",
     "description": "Tiles: [opportunity_detail, opportunity_activity]",
@@ -11,6 +11,6 @@
     "released_on": "2013-03-08T19:11:11.234Z",
     "register_url": "%serviceURL%/jive/oauth/register",
     "unregister_url": "%serviceURL%/jive/oauth/unregister",
-    "service_url": "http://ec2-54-174-204-81.compute-1.amazonaws.com",
+    "service_url": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com",
     "redirect_url": "%serviceURL%"
 }
