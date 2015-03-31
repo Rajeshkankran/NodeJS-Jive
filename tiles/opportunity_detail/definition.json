@@ -41,9 +41,9 @@
     "name": "opportunity_detail",
     "description": "Opportunity Detail",
     "icons" : {
-        "16": "{{{host}}}/opportunity_activity/images/salesforce.png",
-        "48": "{{{host}}}/opportunity_activity/images/salesforce.png",
-        "128": "{{{host}}}/opportunity_activity/images/salesforce.png"
+        "16": "{{{host}}}/opportunity_detail/images/salesforce.png",
+        "48": "{{{host}}}/opportunity_detail/images/salesforce.png",
+        "128": "{{{host}}}/opportunity_detail/images/salesforce.png"
     },
     "config" : "/deal-room/configure",
     "style": "LIST"
