@@ -60,9 +60,9 @@
             "name": "opportunity_activity",
             "description": "Opportunity activity",
             "icons": {
-                "16": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/salesforce.png",
-                "48": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/salesforce.png",
-                "128": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/salesforce.png"
+                "16": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/chatter.png",
+                "48": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/chatter.png",
+                "128": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/chatter.png"
             },
             "config": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/deal-room/configure",
             "style": "ACTIVITY",
