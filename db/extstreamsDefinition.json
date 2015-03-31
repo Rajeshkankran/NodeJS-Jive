@@ -1,0 +1,16 @@
+{
+  "8e591411-d96a-4c1d-8ecc-678ba88b5a7d": {
+    "displayName": "Activity",
+    "name": "opportunity_activity",
+    "description": "Opportunity activity",
+    "icons": {
+      "16": "{{{host}}}/opportunity_activity/images/chatter.png",
+      "48": "{{{host}}}/opportunity_activity/images/chatter.png",
+      "128": "{{{host}}}/opportunity_activity/images/chatter.png"
+    },
+    "config": "/deal-room/configure",
+    "style": "ACTIVITY",
+    "id": "8e591411-d96a-4c1d-8ecc-678ba88b5a7d",
+    "definitionDirName": "opportunity_activity"
+  }
+}

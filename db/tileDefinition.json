@@ -1,0 +1,54 @@
+{
+  "3dcd8e46-13d9-446f-b7d0-5b54dfdfeca0": {
+    "sampleData": {
+      "title": "Opportunity",
+      "contents": [
+        {
+          "text": "Stage Name:",
+          "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
+          "linkDescription": "Stage Name"
+        },
+        {
+          "text": "Type:",
+          "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
+          "linkDescription": "Type"
+        },
+        {
+          "text": "Probability:",
+          "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
+          "linkDescription": "Close Date"
+        },
+        {
+          "text": "Amount: ",
+          "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
+          "linkDescription": "Amount"
+        },
+        {
+          "text": "Expected Revenue: ",
+          "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
+          "linkDescription": "Expected Revenue"
+        },
+        {
+          "text": "Close Date: ",
+          "icon": "{{{host}}}/opportunity_detail/images/salesforce.png",
+          "linkDescription": "Close Date"
+        }
+      ],
+      "config": {
+        "listStyle": "contentList"
+      }
+    },
+    "displayName": "Opportunity",
+    "name": "opportunity_detail",
+    "description": "Opportunity Detail",
+    "icons": {
+      "16": "{{{host}}}/opportunity_detail/images/salesforce.png",
+      "48": "{{{host}}}/opportunity_detail/images/salesforce.png",
+      "128": "{{{host}}}/opportunity_detail/images/salesforce.png"
+    },
+    "config": "/deal-room/configure",
+    "style": "LIST",
+    "id": "3dcd8e46-13d9-446f-b7d0-5b54dfdfeca0",
+    "definitionDirName": "opportunity_detail"
+  }
+}
