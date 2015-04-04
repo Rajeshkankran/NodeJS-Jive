@@ -1,2 +1,2 @@
 # kankranrepo
-This add-on for vibee
+This add-on for ibee
