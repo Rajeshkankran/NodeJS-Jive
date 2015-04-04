@@ -27,7 +27,10 @@ var express = require('express'),
     http = require('http'),
     jive = require('jive-sdk');
 
+var log  = require('./logger');
 
+
+log.logger.debug('happy');
 //SSL certificates options
 var options = {
 	key: fs.readFileSync('certs/server.key'),
@@ -44,14 +47,14 @@ var app = express();
 // Setup jive
 
 var failServer = function(reason) {
-    console.log('FATAL -', reason );
+    logger.fatal('FATAL -', reason );
     process.exit(-1);
 };
 
 var startServer = function () {
     if ( !jive.service.role || jive.service.role.isHttp() ) {
         var server = http.createServer(app).listen( app.get('port') || 80, app.get('hostname') || undefined, function () {
-            console.log("Express server listening on " + server.address().address +':'+server.address().port);
+            log.logger.info("Express server listening on " + server.address().address +':'+server.address().port);
         });
     }
 };

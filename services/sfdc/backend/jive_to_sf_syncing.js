@@ -53,6 +53,8 @@ function pushCommentToSalesforce(jiveComment, extstream) {
     var ticketID = extstream.config.ticketID;
     var sfActivityID = jiveComment['rootExternalID'];
     var text = jiveComment.content.text;
+        text = extractPlainText(text).trim();
+	text = text.replace(/<(?:.|\n)*?>/gm,'');
     var uri = '/chatter/feed-items/' + sfActivityID + '/comments?text=' + encodeURIComponent(extractPlainText(text));
     var publishedTime = new Date(jiveComment.published).getTime();
 

@@ -1,5 +1,5 @@
 {
-  "3dcd8e46-13d9-446f-b7d0-5b54dfdfeca0": {
+  "14fc34b1-b02f-472e-9ef0-80de5d3cc408": {
     "sampleData": {
       "title": "Opportunity",
       "contents": [
@@ -48,7 +48,7 @@
     },
     "config": "/deal-room/configure",
     "style": "LIST",
-    "id": "3dcd8e46-13d9-446f-b7d0-5b54dfdfeca0",
+    "id": "14fc34b1-b02f-472e-9ef0-80de5d3cc408",
     "definitionDirName": "opportunity_detail"
   }
 }
