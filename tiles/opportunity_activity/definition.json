@@ -3,9 +3,9 @@
     "name" : "opportunity_activity",
     "description" : "Opportunity activity",
     "icons" : {
-        "16": "{{{host}}}/opportunity_activity/images/chatter.png",
-        "48": "{{{host}}}/opportunity_activity/images/chatter.png",
-        "128": "{{{host}}}/opportunity_activity/images/chatter.png"
+        "16": "{{{host}}}/images/chatter.png",
+        "48": "{{{host}}}/images/chatter.png",
+        "128": "{{{host}}}/images/chatter.png"
     },
     "config" : "/deal-room/configure",
     "style" : "ACTIVITY"
