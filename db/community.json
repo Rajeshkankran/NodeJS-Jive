@@ -6,5 +6,13 @@
     "clientId": "m3txlmyy1k27dku23z4fuw2esmelyjtd.i",
     "clientSecret": "8pf24h7sa8h5ksgzzzphipb1p381nhsf.s",
     "jiveCommunity": "sandbox.jiveon.com"
+  },
+  "https://ibtechnology-blue.jiveon.com": {
+    "jiveUrl": "https://ibtechnology-blue.jiveon.com",
+    "version": "post-samurai",
+    "tenantId": "e8b2596c-faa0-42f1-97bf-2df10ea84f14",
+    "clientId": "q8qp64pilxdki1ue08ndm9zr8bcrzo78.i",
+    "clientSecret": "qkkx16xvv3b2s7z3g116mpmkr96g5kec.s",
+    "jiveCommunity": "ibtechnology-blue.jiveon.com"
   }
 }

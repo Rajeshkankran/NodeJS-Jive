@@ -6,7 +6,7 @@ var q = require('q');
 
 var metadataCollection = "sfdcActivityMetadata";
 var metadataStore = jive.service.persistence();
-var addOnHost ="https://ec2-54-186-37-98.us-west-2.compute.amazonaws.com";
+var addOnHost = jive.service.serviceURL();
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Public
 
@@ -277,7 +277,7 @@ function getActivityJSON(record) {
             "object": {
                 "type": "website",
                 "url": "http://na16.salesforce.com/"+ externalID,
-                "image": addOnHost + "/images/salesforce.png",
+                "image": addOnHost + "/images/chatter.png",
                 "title": body,
                 "description": body
             },

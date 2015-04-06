@@ -16,21 +16,21 @@
     "jiveCommunity": "sandbox.jiveon.com",
     "id": "9fe7ef02-01f2-435f-986b-bac77f7bee52"
   },
-  "b264b868-888e-4096-8641-e7608415887a": {
-    "url": "https://sandbox.jiveon.com/api/jivelinks/v1/extstreams/6869/activities",
+  "996120fd-36b5-46d0-9453-d2a646d1ec04": {
+    "url": "https://ibtechnology-blue.jiveon.com/api/jivelinks/v1/extstreams/1001/activities",
     "config": {
-      "parent": "https://sandbox.jiveon.com/api/core/v3/places/120631",
-      "opportunityID": "006j000000AaU1QAAV",
+      "parent": "https://ibtechnology-blue.jiveon.com/api/core/v3/places/1005",
+      "opportunityID": "006j000000AaU1gAAF",
       "isSFDC": true,
-      "ticketID": "D95DC59321DF4218E811D395BAECF34C55395B9A"
+      "ticketID": "09CFAD3A771C11EED018E4049F38BFE7B39CB2AE"
     },
     "name": "opportunity_activity",
-    "accessToken": "12wawin62zcwaylssuodgpgjwf9byxb0x4lx49gl.t",
+    "accessToken": "1zwqidmhnvdhtyu32n40jeh75qr42khby8zi3fe8.t",
     "expiresIn": "172799",
-    "refreshToken": "8ig6islhekwuc3nojamkeb5fxi3zltlzunqldkyb.r",
-    "scope": "uri:/api/jivelinks/v1/extstreams/6869",
-    "guid": "b22e3911-28ef-480c-ae3b-ca791ba86952_6869",
-    "jiveCommunity": "sandbox.jiveon.com",
-    "id": "b264b868-888e-4096-8641-e7608415887a"
+    "refreshToken": "avdvzugq93um0d1gcbl2zdc5yevlpnezj1cp7nnj.r",
+    "scope": "uri:/api/jivelinks/v1/extstreams/1001",
+    "guid": "e8b2596c-faa0-42f1-97bf-2df10ea84f14_1001",
+    "jiveCommunity": "ibtechnology-blue.jiveon.com",
+    "id": "996120fd-36b5-46d0-9453-d2a646d1ec04"
   }
 }
