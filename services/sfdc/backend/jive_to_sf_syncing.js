@@ -9,7 +9,7 @@ var jive = require('jive-sdk'),
 exports.jiveCommentsToSalesforce = function (extstream) {
     return opportunities.getLastTimePulled(extstream, "jivecomment").then(function (lastTimePulled) {
         var opts = {
-            "fieldList": ["content", "externalID", "rootExternalID", "published" ], // list of fields to be returned on Jive entity
+            "fieldList": ["content","author", "externalID", "rootExternalID", "published" ], // list of fields to be returned on Jive entity
             "itemsPerPage": 100,              // for paginated requests, the no. of items to return per request
             "commentSourceType": "JIVE",     // Must be "JIVE" or "EXTERNAL" or "ALL". Defaults to "ALL"
             "publishedAfter": lastTimePulled  // Get comments that were created after this time only
@@ -55,7 +55,8 @@ function pushCommentToSalesforce(jiveComment, extstream) {
     var text = jiveComment.content.text;
         text = extractPlainText(text).trim();
 	text = text.replace(/<(?:.|\n)*?>/gm,'');
-    var uri = '/chatter/feed-items/' + sfActivityID + '/comments?text=' + encodeURIComponent(extractPlainText(text));
+    var author = jiveComment.author.name.formatted;
+    var uri = '/chatter/feed-items/' + sfActivityID + '/comments?text=@'+author+': ' + encodeURIComponent(extractPlainText(text));
     var publishedTime = new Date(jiveComment.published).getTime();
 
     return sfdc_helpers.postSalesforceV27(ticketID, uri, null).then(function (response) {
