@@ -1,0 +1,36 @@
+{
+  "0451d6ca-868f-4a07-898c-a86e38a6dd1a": {
+    "url": "https://sandbox.jiveon.com/api/jivelinks/v1/tiles/6835/data",
+    "config": {
+      "parent": "https://sandbox.jiveon.com/api/core/v3/places/120631",
+      "opportunityID": "006j000000AaU1WAAV",
+      "isSFDC": true,
+      "ticketID": "D95DC59321DF4218E811D395BAECF34C55395B9A"
+    },
+    "name": "opportunity_detail",
+    "accessToken": "erp8gcvo9im7wumcev3z4rfl61h234w4yp40p59m.t",
+    "expiresIn": "172799",
+    "refreshToken": "2o56so89y41tmbjvg0qzwc34ycb4mehf54hhr4zq.r",
+    "scope": "uri:/api/jivelinks/v1/tiles/6835",
+    "guid": "b22e3911-28ef-480c-ae3b-ca791ba86952_6835",
+    "jiveCommunity": "sandbox.jiveon.com",
+    "id": "0451d6ca-868f-4a07-898c-a86e38a6dd1a"
+  },
+  "bb6da666-4c6a-44df-a679-e433381f5e6a": {
+    "url": "https://sandbox.jiveon.com/api/jivelinks/v1/tiles/6868/data",
+    "config": {
+      "parent": "https://sandbox.jiveon.com/api/core/v3/places/120631",
+      "opportunityID": "006j000000AaU1QAAV",
+      "isSFDC": true,
+      "ticketID": "D95DC59321DF4218E811D395BAECF34C55395B9A"
+    },
+    "name": "opportunity_detail",
+    "accessToken": "i6vchb600vr2ab5d9rcrhcbni0lv50rl5h6kwrbz.t",
+    "expiresIn": "172799",
+    "refreshToken": "ivhus8t897dh99x2oxpcha8q0lyolpfh0i6wi6xi.r",
+    "scope": "uri:/api/jivelinks/v1/tiles/6868",
+    "guid": "b22e3911-28ef-480c-ae3b-ca791ba86952_6868",
+    "jiveCommunity": "sandbox.jiveon.com",
+    "id": "bb6da666-4c6a-44df-a679-e433381f5e6a"
+  }
+}
