@@ -24,7 +24,7 @@ exports.pullActivity = function(extstreamInstance) {
         var ticketID = extstreamInstance.config.ticketID;
 
         //First query text posts
-        var queryTextPosts = util.format("SELECT Id, Type, CreatedDate, CreatedBy.Name, Parent.Name, IsDeleted, Body, (SELECT Id, FieldName, OldValue, NewValue" +
+        var queryTextPosts = util.format("SELECT Id, Type, CreatedDate, CreatedBy.Name,CreatedBy.Email, Parent.Name, IsDeleted, Body, (SELECT Id, FieldName, OldValue, NewValue" +
             " FROM FeedTrackedChanges ) FROM OpportunityFeed" +
             " WHERE ParentId = '%s' AND CreatedDate > %s ORDER BY CreatedDate ASC",
             opportunityID,
@@ -212,7 +212,7 @@ function convertToActivities(entity, lastTimePulled, instance) {
         return json;
     });
 
-    return exports.updateLastTimePulled(instance, lastTimePulled, 'activity').thenResolve(activities);
+    return exports.updateLastTimePulled(instance, lastTimePulled, 'discussion').thenResolve(activities);
 }
 
 function convertToComments(entity, lastTimePulled, instance) {
@@ -247,7 +247,7 @@ function getActivityJSON(record) {
     var oppName = record.Parent && record.Parent.Name || 'Some Opportunity';
     var externalID = record.Id;
     var createdDate = new Date(record.CreatedDate).getTime();
-
+    var email = record.CreatedBy.Email
     var body = null;
     if (record.Type == 'TextPost') {
         body = record.Body;
@@ -272,7 +272,7 @@ function getActivityJSON(record) {
             },
             "actor": {
                 "name": actor,
-                "email": "actor@email.com"
+                "email": email
             },
             "object": {
                 "type": "website",
