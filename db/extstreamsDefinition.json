@@ -1,16 +1,16 @@
 {
-  "e3a72662-b4fd-48de-bae5-0822dcf00c70": {
+  "9e815ffe-611a-4be2-82fd-67488d213b12": {
     "displayName": "Activity",
     "name": "opportunity_activity",
     "description": "Opportunity activity",
     "icons": {
-      "16": "{{{host}}}/opportunity_activity/images/chatter.png",
-      "48": "{{{host}}}/opportunity_activity/images/chatter.png",
-      "128": "{{{host}}}/opportunity_activity/images/chatter.png"
+      "16": "{{{host}}}/images/chatter.png",
+      "48": "{{{host}}}/images/chatter.png",
+      "128": "{{{host}}}/images/chatter.png"
     },
     "config": "/deal-room/configure",
     "style": "ACTIVITY",
-    "id": "e3a72662-b4fd-48de-bae5-0822dcf00c70",
+    "id": "9e815ffe-611a-4be2-82fd-67488d213b12",
     "definitionDirName": "opportunity_activity"
   }
 }

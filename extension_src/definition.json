@@ -9,32 +9,32 @@
                 "contents": [
                     {
                         "text": "Stage Name:",
-                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png",
+                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/images/salesforce.png",
                         "linkDescription": "Stage Name"
                     },
                     {
                         "text": "Type:",
-                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png",
+                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/images/salesforce.png",
                         "linkDescription": "Type"
                     },
                     {
                         "text": "Probability:",
-                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png",
+                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/images/salesforce.png",
                         "linkDescription": "Close Date"
                     },
                     {
                         "text": "Amount: ",
-                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png",
+                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/images/salesforce.png",
                         "linkDescription": "Amount"
                     },
                     {
                         "text": "Expected Revenue: ",
-                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png",
+                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/images/salesforce.png",
                         "linkDescription": "Expected Revenue"
                     },
                     {
                         "text": "Close Date: ",
-                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png",
+                        "icon": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/images/salesforce.png",
                         "linkDescription": "Close Date"
                     }
                 ],
@@ -46,9 +46,9 @@
             "name": "opportunity_detail",
             "description": "Opportunity Detail",
             "icons": {
-                "16": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png",
-                "48": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png",
-                "128": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_detail/images/salesforce.png"
+                "16": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/images/salesforce.png",
+                "48": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/images/salesforce.png",
+                "128": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/images/salesforce.png"
             },
             "config": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/deal-room/configure",
             "style": "LIST",
@@ -60,9 +60,9 @@
             "name": "opportunity_activity",
             "description": "Opportunity activity",
             "icons": {
-                "16": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/chatter.png",
-                "48": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/chatter.png",
-                "128": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/opportunity_activity/images/chatter.png"
+                "16": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/images/chatter.png",
+                "48": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/images/chatter.png",
+                "128": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/images/chatter.png"
             },
             "config": "http://ec2-54-186-37-98.us-west-2.compute.amazonaws.com/deal-room/configure",
             "style": "ACTIVITY",
